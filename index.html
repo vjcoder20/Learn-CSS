@@ -1,115 +1,68 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link href="style.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet"/>
+  <title>Home|Vaibhav</title>
 </head>
 <body>
- <h1>Vaibhav Jain's Component Library</h1>
- <p>I am attending neogcamp. I want to make a library which would make all my projects look good and 
-   conistent.
- </p>
- <hr>
+  <nav class="navigation">
+    <div class= "nav-brand">Vaibhav Jain</div>
+    <ul class = "list-non-bullet nav-pills">
+      <li class = "list-item-inline">
+        <a class = "links link-active" href="/index.html">Home</a>
+      </li>
+      <li class = "list-item-inline">
+        <a class = "links" href="/projects.html">Projects</a>
+      </li>
+      <li class = "list-item-inline">
+        <a class = "links" href="/blogs.html">Blogs</a>
+      </li>
+    </ul>
+  </nav>
 
- <h2>@typography</h2>
- <h1>This is the biggest heading</h1>
- <h2>This is second biggest heading</h2> 
- <p>This paragraph have <strong>bold </strong>text</p>
- <small>This is relatively small than h1 and h2</small>
- <hr>
-
- <h2>@containers</h2>
- <h3>fluid containers</h3>
- <div class = " container">This is a fluid container and it will go till the end of the page</div>
-
- <h3>center containers</h3>
- <div class = "container container-center">This is a centered container and will go till the specified width</div>
-<hr>
-
-<h2>@Links</h2>
-<a class = "links primary-link" href="/">Primary link</a>
-<a class = "links secondary-link" href="/">Secondary link</a>
-<hr>
-
-<h2>@lists</h2>
-<h3>unordered list</h3>
-<ul class="list-non-bullet"> <!-- Unordered List -->
-<li>Item One</li>
-<li>Item Two</li>
-<li>Item Three</li>
-</ul>
-
-<h3>unordered inline list</h3>
-<ul class = "list-non-bullet">
-  <li class="list-item-inline">Inline Item One</li>
-<li class="list-item-inline">Inline Item Two</li>
-<li class="list-item-inline">Inline Item Three</li>
-</ul>
-
-<h3>reverse ordered list</h3>
-<ol reversed> <!-- Ordered List -->
-<li>milk</li>
-<li>eggs</li>
-<li>bread</li>
-
-</ol>
-<hr>
-
-<h2>@nav</h2>
-<nav class="navigation">
-  <div class= "nav-brand">IamDeveloper</div>
-  <ul class = "list-non-bullet nav-pills">
-    <li class = "list-item-inline">
-      <a class = "links link-active" href="/">Home</a>
-    </li>
-    <li class = "list-item-inline">
-      <a class = "links" href="/">Projects</a>
-    </li>
-    <li class = "list-item-inline">
-      <a class = "links" href="/">Blogs</a>
-    </li>
-  </ul>
-</nav>
-<hr>
-
-<h2>@header</h2>
-<header class = "hero">
-  <img class = "hero-img" src ="images/headimage.svg"/>
-  <h1 class = "hero-heading">Vaibhav Jain the <span style ="color:var(--primary-color)"> Web developer</span></h1>
-</header>
-<hr>
-
-<h2>@section</h2>
-<section class = "section">
-  <div class = "container container container-center">
-  <h1>white section</h1>
-  <p>This will have White Background</p>
+  <header class = "hero">
+    <img class = "hero-img" src ="images/headimage.svg"/>
+    <h1 class = "hero-heading">Vaibhav Jain the aspiring<span style ="color:var(--primary-color)"> Web developer</span></h1>
+  </header>
+  <section class = "section ow">
+    <div class = "container container container-center">
+    <h1>Technologies</h1>
+    <p>This will have Grey Background</p>
   </div>
-</section>
-<section class = "section ow">
-  <div class = "container container container-center">
-  <h1>off white section</h1>
-  <p>This will have Grey Background</p>
-</div>
-</section>
-<hr>
- <h2>@footer</h2>
- <footer class = "footer">
-   <div class = "footer-header">Some header inside footer</div>
-   <ul class = "social-links list-non-bullet">
-     <li class = "list-item-inline">
-       <a class = "links" href = "/">Social One</a>
-     </li>
-     <li class = "list-item-inline">
-      <a class = "links"href = "/">Social Two</a>
-     </li>
-     <li class = "list-item-inline">
-      <a class = "links" href = "/">Social Three</a>
-     </li>
-   </ul>
- </footer>
+  </section>
+  <section class = "section">
+    <div class = "container container container-center">
+    <h1>Projects</h1>
+    <p>This will have White Background</p>
+    <a class = "links primary-link" href="/">Primary link</a>
+    </div>
+  </section>
+  <section class = "section ow">
+    <div class = "container container container-center">
+    <h1>Blogs</h1>
+    <p>This will have Grey Background</p>
+    <a class = "links secondary-link" href="/"><strong>Read Blogs</strong></a>
+  </div>
+  </section>
+
+  <footer class = "footer">
+    <div class = "footer-header">Connect with me:</div>
+    <ul class = "social-links list-non-bullet">
+      <li class = "list-item-inline">
+        <a class = "links" href = "/">LinkedIn</a>
+      </li>
+      <li class = "list-item-inline">
+       <a class = "links"href = "/">Twitter</a>
+      </li>
+      <li class = "list-item-inline">
+       <a class = "links" href = "/">GitHub</a>
+      </li>
+    </ul>
+  </footer>
+ </body>
+ </html>
 </body>
 </html>

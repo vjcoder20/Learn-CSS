@@ -3,7 +3,8 @@
 :root{
     --primary-color: #34D399;
     --blue-color : #4B5563;
-    --off-white: #E5E7EB;
+    --off-white: #A7F3D0;
+
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +16,7 @@ hr{
 .container{
     /* padding-left: 1rem;
     padding-right: 1rem; */
-    padding: 0rem 1rem;
+    padding: 0.5rem 1rem;
 }
 .container-center{
 max-width: 600px;
@@ -29,15 +30,23 @@ margin: auto;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+    padding: 0.5em 0.5rem;
+    margin: 1rem 0.5rem 0.5rem 0rem;
+}
+.projects-text{
+    padding: 0rem 0rem 1rem 0rem;
 }
 .secondary-link{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border:1px solid var(--primary-color);
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 0.5rem 0.5rem 0rem;
 }
 .list-non-bullet{
 list-style: none;
 }
+
 .list-item-inline{
     display: inline;
     padding:0rem 0.5rem;
@@ -45,8 +54,8 @@ list-style: none;
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
-    border-top-left-radius: 1rem;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
 }
 .navigation .links{
     color:white;
@@ -63,16 +72,17 @@ list-style: none;
 }
 .hero{
     padding:2rem;
-    text-align: center;
+    padding-top: 5rem;
 }
 .hero .hero-img{
-    max-width: 600px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
 .hero .hero-heading{
     color: var(--blue-color);
     padding-top: 1rem;
+    text-align: center;
 }
 .section{
     padding: 2rem;
@@ -85,12 +95,16 @@ text-align: center;
 }
 .footer {
     background-color:var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color:white;
     border-top-right-radius: 1rem;
 }
 .footer .links{
     color:white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
