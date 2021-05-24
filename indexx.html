@@ -36,21 +36,21 @@
 
 <h2>@lists</h2>
 <h3>unordered list</h3>
-<ul> <!-- Unordered List -->
+<ul class="list-non-bullet"> <!-- Unordered List -->
 <li>Item One</li>
 <li>Item Two</li>
 <li>Item Three</li>
 </ul>
 
 <h3>unordered inline list</h3>
-<ul>
-  <li>Inline Item One</li>
-<li>Inline Item Two</li>
-<li>Inline Item Three</li>
+<ul class = "list-non-bullet">
+  <li class="list-item-inline">Inline Item One</li>
+<li class="list-item-inline">Inline Item Two</li>
+<li class="list-item-inline">Inline Item Three</li>
 </ul>
 
 <h3>reverse ordered list</h3>
-<ol> <!-- Ordered List -->
+<ol reversed> <!-- Ordered List -->
 <li>milk</li>
 <li>eggs</li>
 <li>bread</li>
@@ -59,46 +59,56 @@
 <hr>
 
 <h2>@nav</h2>
-<nav>
-  <div>IamDeveloper</div>
-  <ul>
-    <li>
-      <a href="/">Home</a>
+<nav class="navigation">
+  <div class= "nav-brand">IamDeveloper</div>
+  <ul class = "list-non-bullet nav-pills">
+    <li class = "list-item-inline">
+      <a class = "links link-active" href="/">Home</a>
     </li>
-    <li>
-      <a href="/">Projects</a>
+    <li class = "list-item-inline">
+      <a class = "links" href="/">Projects</a>
     </li>
-    <li>
-      <a href="/">Blogs</a>
+    <li class = "list-item-inline">
+      <a class = "links" href="/">Blogs</a>
     </li>
   </ul>
 </nav>
 <hr>
 
 <h2>@header</h2>
-<header>
-  <img src ="images/headimage.svg"/>
-  <h1>Main Heading</h1>
+<header class = "hero">
+  <img class = "hero-img" src ="images/headimage.svg"/>
+  <h1 class = "hero-heading">Vaibhav Jain the <span style ="color:var(--primary-color)"> Web developer</span></h1>
 </header>
 <hr>
 
 <h2>@section</h2>
-<section>
-  <h3>white section</h3>
+<section class = "section">
+  <div class = "container container container-center">
+  <h1>white section</h1>
   <p>This will have White Background</p>
+  </div>
 </section>
-<section>
-  <h3>off white section</h3>
+<section class = "section ow">
+  <div class = "container container container-center">
+  <h1>off white section</h1>
   <p>This will have Grey Background</p>
+</div>
 </section>
 <hr>
  <h2>@footer</h2>
- <footer>
-   <div>Some header inside footer</div>
-   <ul>
-     <li>Social One</li>
-     <li>Social Two</li>
-     <li>Social Three</li>
+ <footer class = "footer">
+   <div class = "footer-header">Some header inside footer</div>
+   <ul class = "social-links list-non-bullet">
+     <li class = "list-item-inline">
+       <a class = "links" href = "/">Social One</a>
+     </li>
+     <li class = "list-item-inline">
+      <a class = "links"href = "/">Social Two</a>
+     </li>
+     <li class = "list-item-inline">
+      <a class = "links" href = "/">Social Three</a>
+     </li>
    </ul>
  </footer>
 </body>
