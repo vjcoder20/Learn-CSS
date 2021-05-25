@@ -94,7 +94,7 @@ text-align: center;
     background-color: var(--off-white);
 }
 .footer {
-    background-color:var(--primary-color);
+    background-color:var(--off-white);
     padding: 1rem 1rem;
     text-align: center;
     color:white;
@@ -110,6 +110,6 @@ text-align: center;
 }
 .footer img{
     width: 25px;
-    color: white;
 }
+
 
