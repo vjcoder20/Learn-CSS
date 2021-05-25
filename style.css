@@ -100,14 +100,16 @@ text-align: center;
     color:white;
     border-top-right-radius: 1rem;
 }
-.footer .links{
-    color:white;
-}
+
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.footer img{
+    width: 25px;
+    color: white;
 }
 
