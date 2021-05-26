@@ -104,12 +104,14 @@ text-align: center;
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
+    padding-bottom: 1em;
 }
 .footer ul{
     padding-inline-start: 0px;
 }
 .footer img{
-    width: 25px;
+    width: 1.5em;
+    
 }
 
 
