@@ -81,7 +81,7 @@ list-style: none;
 }
 .hero .hero-heading{
     color: var(--blue-color);
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     text-align: center;
 }
 .section{
